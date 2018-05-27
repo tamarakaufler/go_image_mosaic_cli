@@ -1,7 +1,13 @@
 # go_image_mosaic_cli
-CLI implementation of creating an image mosaic
+CLI implementation of creating an image mosaic for a provided image
 
+# usage
 go run main.go -i origImage.jpg -t 8
+
+flags:
+ - -i ... image for which the mosaic will be created
+ - -t ... number of tiles along each image edge
+
 
 # Performance statistics
 
